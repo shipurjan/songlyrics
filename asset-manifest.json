@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/songlyrics/static/css/main.72524d44.css",
-    "main.js": "/songlyrics/static/js/main.bb38dcd8.js",
+    "main.css": "/songlyrics/static/css/main.fdbd391f.css",
+    "main.js": "/songlyrics/static/js/main.a931c669.js",
     "static/js/787.161d8146.chunk.js": "/songlyrics/static/js/787.161d8146.chunk.js",
     "index.html": "/songlyrics/index.html",
-    "main.72524d44.css.map": "/songlyrics/static/css/main.72524d44.css.map",
-    "main.bb38dcd8.js.map": "/songlyrics/static/js/main.bb38dcd8.js.map",
+    "main.fdbd391f.css.map": "/songlyrics/static/css/main.fdbd391f.css.map",
+    "main.a931c669.js.map": "/songlyrics/static/js/main.a931c669.js.map",
     "787.161d8146.chunk.js.map": "/songlyrics/static/js/787.161d8146.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72524d44.css",
-    "static/js/main.bb38dcd8.js"
+    "static/css/main.fdbd391f.css",
+    "static/js/main.a931c669.js"
   ]
 }
