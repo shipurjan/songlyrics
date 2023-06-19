@@ -9,12 +9,12 @@ export const Header = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
-        <Navbar.Brand href="/">API-Playground</Navbar.Brand>
+        <Navbar.Brand><Link to={'/'}>API-Playground</Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/dictionary">Słownik</Nav.Link>
-            <Nav.Link href="/joke">Żart</Nav.Link>
+            <Nav.Link><Link to={'/dictionary'}>Słownik</Link></Nav.Link>
+            <Nav.Link><Link to={'/joke'}>Żart</Link></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
