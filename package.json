@@ -1,6 +1,6 @@
 {
   "name": "songlyrics",
-  "homepage": "https://shipurjan.github.io/songlyrics/#",
+  "homepage": "/songlyrics/#",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
