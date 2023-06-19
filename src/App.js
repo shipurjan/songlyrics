@@ -9,7 +9,7 @@ import { Dictionary } from './pages/dictionary/Dictionary';
 export default function App() {
   return (
     <Layout>
-      <Router basename='songlyrics'>
+      <Router>
         <Routes>
           <Route path="/" element={<Navigate to="/home" />} />
           <Route path="/home" element={<Home />} />
