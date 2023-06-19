@@ -1,12 +1,11 @@
 import './App.css';
-import { Header } from "./components/Header";
+import { Layout } from "./layout";
+import { Home } from './pages/home/Home';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <Header />
-    </div>
+    <Layout>
+      <Home/>
+    </Layout>
   );
-}
-
-export default App;
+};

@@ -1,0 +1,17 @@
+.App {
+    text-align: center;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.App > main {
+    flex-grow: 1;
+}
+
+.App > header, .App > main, .App > footer {
+    flex-shrink: 0;
+} 

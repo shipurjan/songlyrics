@@ -1,0 +1,8 @@
+footer{
+    width:100%;
+    align-self: flex-end;
+}
+
+svg{
+    filter: invert(100%);
+}
