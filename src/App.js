@@ -12,6 +12,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/songlyrics" element={<Home />} />
           <Route path="/songlist" element={<SongList />} />
           <Route path="/joke" element={<Joke />} />
           <Route path="/dictionary" element={<Dictionary />} />
