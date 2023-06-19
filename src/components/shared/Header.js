@@ -9,11 +9,11 @@ export const Header = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">SongLyrics.com</Navbar.Brand>
+        <Navbar.Brand href="/">SongLyrics.com</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#link">Song list</Nav.Link>
+            <Nav.Link href="/songlist">Song list</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
