@@ -6,6 +6,10 @@
     align-items: stretch;
     max-width: 1080px;
     margin: 0 auto;
+    background-color: var(--main-bg-color);
+    border: 1px solid black;
+    border-top: 0;
+    border-bottom: 0;
 }
 
 .App > main {
@@ -15,3 +19,7 @@
 .App > header, .App > main, .App > footer {
     flex-shrink: 0;
 } 
+
+h2{
+margin-top:1em;
+}

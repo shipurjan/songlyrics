@@ -1,0 +1,35 @@
+h4{
+    padding: 0.5ex 0;
+}
+
+table, th, tr, td {
+    border: 1px solid var(--main-font-color);
+    text-align: left;
+}
+
+th {
+    text-align: center !important;
+}
+
+table{
+    margin: 0 auto;
+}
+
+td {
+    vertical-align: top;
+    padding: 0.5ex;
+    margin: 0.5ex;
+}
+
+tr td {
+    max-width: 300px;
+}
+
+.definitions div:not(:last-child) table {
+    margin-bottom: 2em;
+}
+
+.input-group {
+    max-width: 80%;
+    margin: 0 auto;
+}
