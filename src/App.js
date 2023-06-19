@@ -1,6 +1,6 @@
 import './App.css';
 import { Layout } from "./layout";
-import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import { Home } from './pages/home/Home';
 import { SongList } from './pages/songlist/SongList';
 import { Joke } from './pages/joke/Joke';
