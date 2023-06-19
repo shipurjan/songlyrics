@@ -2,3 +2,12 @@ div.container {
     margin: 0;
     padding: 0 3em;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: var(--main-bg-color);
+}
